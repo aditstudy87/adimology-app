@@ -568,9 +568,7 @@ h3 {
     var(--shadow-lg),
     var(--glass-reflection),
     var(--glass-inner-glow);
-  overflow-y: auto;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+  overflow: hidden;
 }
 
 .compact-card::-webkit-scrollbar {
@@ -774,9 +772,7 @@ h3 {
     var(--glass-reflection),
     var(--glass-inner-glow);
   height: 650px;
-  overflow-y: auto;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+  overflow: hidden;
 }
 
 
